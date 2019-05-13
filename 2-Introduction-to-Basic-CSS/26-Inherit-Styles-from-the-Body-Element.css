@@ -1,0 +1,12 @@
+/*LESSON SUMMARY: Added an h1 element with the text hello world. Changed the color to green and the font to monospace.*/
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1> Hello World </h1>
