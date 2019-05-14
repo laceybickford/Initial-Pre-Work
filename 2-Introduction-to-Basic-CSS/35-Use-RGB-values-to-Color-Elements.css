@@ -1,0 +1,7 @@
+/*LESSON SUMMARY: Learned you can use rgb values to represent colors in CSS. Changed the background color to black using rgb values. */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
