@@ -1,15 +1,15 @@
-/*LESSON SUMMARY: Learned about local scope. */ 
-function myLocalScope() {
-  'use strict'; // you shouldn't need to edit this line
+/* LESSON SUMMARY: overrode a global variable with a local variable */
 
-  var myVar;
+// Setup
+var outerWear = "T-Shirt";
 
-  console.log(myVar);
+function myOutfit() {
+  // Only change code below this line
+
+  var outerWear = "sweater";
+
+  // Only change code above this line
+  return outerWear;
 }
-myLocalScope();
 
-// Run and check the console
-// myVar is not defined outside of myLocalScope
-//console.log(myVar);
-
-// Now remove the console log line to pass the test
+myOutfit();

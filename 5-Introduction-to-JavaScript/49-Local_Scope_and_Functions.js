@@ -1,21 +1,15 @@
-/*LESSON SUMMARY: Created a global variable, learned about scope. */
+/*LESSON SUMMARY: Learned about local scope. */
+function myLocalScope() {
+  'use strict'; // you shouldn't need to edit this line
 
-// Declare your variable here
-var myGlobal = 10;
+  var myVar;
 
-function fun1() {
-  // Assign 5 to oopsGlobal Here
-  oopsGlobal = 5;
+  console.log(myVar);
 }
+myLocalScope();
 
-// Only change code above this line
-function fun2() {
-  var output = "";
-  if (typeof myGlobal != "undefined") {
-    output += "myGlobal: " + myGlobal;
-  }
-  if (typeof oopsGlobal != "undefined") {
-    output += " oopsGlobal: " + oopsGlobal;
-  }
-  console.log(output);
-}
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+//console.log(myVar);
+
+// Now remove the console log line to pass the test
